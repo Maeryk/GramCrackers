@@ -18,6 +18,7 @@
 		4485AB1A2231D81C00D31137 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4485AB192231D81C00D31137 /* Assets.xcassets */; };
 		4485AB1C2231DC7300D31137 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4485AB1B2231DC7300D31137 /* CameraViewController.swift */; };
 		4485AB1E2231E57500D31137 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4485AB1D2231E57500D31137 /* PostCell.swift */; };
+		44F008212232173700F8A2F7 /* CommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F008202232173700F8A2F7 /* CommentCell.swift */; };
 		8D867E5DD6ADBCA43720EC95 /* Pods_Parstagram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCF53A92BA56E268A5BDFCC8 /* Pods_Parstagram.framework */; };
 		EBF969C34DF36A2C7E77CBBF /* Pods_ParstagramUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA93DF5B4071DB452FF05DB9 /* Pods_ParstagramUITests.framework */; };
 /* End PBXBuildFile section */
@@ -58,6 +59,7 @@
 		4485AB192231D81C00D31137 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4485AB1B2231DC7300D31137 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
 		4485AB1D2231E57500D31137 /* PostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
+		44F008202232173700F8A2F7 /* CommentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentCell.swift; sourceTree = "<group>"; };
 		5CD57B2C8CF9DF9097F8F510 /* Pods-ParstagramUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ParstagramUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ParstagramUITests/Pods-ParstagramUITests.release.xcconfig"; sourceTree = "<group>"; };
 		7E43FF66D75945A9F33A7A57 /* Pods-Parstagram.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Parstagram.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Parstagram/Pods-Parstagram.debug.xcconfig"; sourceTree = "<group>"; };
 		7FB543CB15280EC3149614B8 /* Pods-ParstagramTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ParstagramTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ParstagramTests/Pods-ParstagramTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -152,6 +154,7 @@
 				4485AADB2231CEB800D31137 /* FeedViewController.swift */,
 				4485AB1B2231DC7300D31137 /* CameraViewController.swift */,
 				4485AB1D2231E57500D31137 /* PostCell.swift */,
+				44F008202232173700F8A2F7 /* CommentCell.swift */,
 			);
 			path = Parstagram;
 			sourceTree = "<group>";
@@ -317,6 +320,7 @@
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
 				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/MessageInputBar/MessageInputBar.framework",
 				"${BUILT_PRODUCTS_DIR}/Parse/Parse.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -326,6 +330,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MessageInputBar.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Parse.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -411,6 +416,7 @@
 				4485AADC2231CEB800D31137 /* FeedViewController.swift in Sources */,
 				4485AAAC2231C63700D31137 /* AppDelegate.swift in Sources */,
 				4485AB1E2231E57500D31137 /* PostCell.swift in Sources */,
+				44F008212232173700F8A2F7 /* CommentCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
