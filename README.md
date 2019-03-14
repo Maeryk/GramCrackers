@@ -13,16 +13,14 @@ The following **required** functionality is completed:
 - [x] User can view comments on a post. (3pts)
 - [x] User can add a new comment. (5pts)
 
-The following **bonus** features are implemented:
-
-- [ ] User can add a profile picture. (2pts)
-- [ ] Profile pictures are shown for posts and comments. (2pts)
 
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='S6nTnUwfW7.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+
+
 # Parstagram - Part I
 
 This is an Instagram clone with a custom Parse backend that allows a user to post photos and view a global photos feed.
